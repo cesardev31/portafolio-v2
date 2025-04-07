@@ -1,54 +1,95 @@
-# React + TypeScript + Vite
+# César Andres Pereira Bernal - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Preview)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my professional portfolio website showcasing my skills, experience, and projects as a Full Stack Developer. The site is built with modern web technologies and features a responsive design, dark/light mode, and smooth animations.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Responsive Design**: Looks great on all devices, from mobile to desktop
+- **Dark/Light Mode**: Toggle between themes based on your preference
+- **Performance Optimized**: Code splitting, lazy loading, and optimized assets
+- **Smooth Animations**: Subtle animations using Framer Motion
+- **Analytics**: Firebase Analytics integration for visitor tracking
+- **SEO Friendly**: Proper meta tags and structured data
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Technologies
+
+- **Frontend**: React 19, TypeScript, Tailwind CSS
+- **Build Tool**: Vite
+- **Animation**: Framer Motion
+- **UI Components**: Custom components with Radix UI primitives
+- **Analytics**: Firebase
+- **Deployment**: [Your deployment platform]
+
+## Setup & Development
+
+### Prerequisites
+
+- [Bun](https://bun.sh/) (Package manager)
+- Node.js 18+ (Recommended)
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/cesardev31/portfolio-v2.git
+   cd portfolio-v2
+   ```
+
+2. Install dependencies
+
+   ```bash
+   bun install
+   ```
+
+3. Start the development server
+
+   ```bash
+   bun run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Building for Production
+
+```bash
+bun run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The built files will be in the `dist` directory, ready to be deployed.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Preview Production Build
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+bun run preview
 ```
+
+## Environment Variables
+
+For Firebase configuration, you can use environment variables:
+
+1. Create a `.env` file in the root directory
+2. Add your Firebase configuration:
+   ```
+   VITE_FIREBASE_API_KEY=your_api_key
+   VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   VITE_FIREBASE_PROJECT_ID=your_project_id
+   VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+   VITE_FIREBASE_APP_ID=your_app_id
+   VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+   ```
+
+## License
+
+[Your chosen license]
+
+## Contact
+
+- Email: [Your email]
+- LinkedIn: [Your LinkedIn profile]
+- GitHub: [Your GitHub profile]
