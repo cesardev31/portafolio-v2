@@ -1,0 +1,20 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <rect width="32" height="32" rx="8" fill="url(#paint0_linear)" />
+  
+  <!-- CP initials -->
+  <path d="M10.5 21V11H15.5C16.4333 11 17.2083 11.1583 17.825 11.475C18.4417 11.7917 18.9083 12.2333 19.225 12.8C19.5417 13.3667 19.7 14.025 19.7 14.775C19.7 15.525 19.5417 16.1833 19.225 16.75C18.9083 17.3167 18.4417 17.7583 17.825 18.075C17.2083 18.3917 16.4333 18.55 15.5 18.55H12.5V21H10.5ZM12.5 16.75H15.3C15.9667 16.75 16.4667 16.5833 16.8 16.25C17.1333 15.9167 17.3 15.4333 17.3 14.8C17.3 14.1667 17.1333 13.6833 16.8 13.35C16.4667 13.0167 15.9667 12.85 15.3 12.85H12.5V16.75Z" fill="white"/>
+  <path d="M21.5 21V11H25.5C26.4333 11 27.2083 11.1583 27.825 11.475C28.4417 11.7917 28.9083 12.2333 29.225 12.8C29.5417 13.3667 29.7 14.025 29.7 14.775C29.7 15.525 29.5417 16.1833 29.225 16.75C28.9083 17.3167 28.4417 17.7583 27.825 18.075C27.2083 18.3917 26.4333 18.55 25.5 18.55H23.5V21H21.5ZM23.5 16.75H25.3C25.9667 16.75 26.4667 16.5833 26.8 16.25C27.1333 15.9167 27.3 15.4333 27.3 14.8C27.3 14.1667 27.1333 13.6833 26.8 13.35C26.4667 13.0167 25.9667 12.85 25.3 12.85H23.5V16.75Z" fill="white"/>
+  
+  <!-- Code bracket accent -->
+  <path d="M7.5 9L4 12.5L7.5 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24.5 16L28 19.5L24.5 23" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+</svg>
