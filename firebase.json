@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "cesardev-957fa",
     "public": "dist",
     "ignore": [
       "firebase.json",
